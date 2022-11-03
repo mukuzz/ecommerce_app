@@ -27,10 +27,9 @@ Buyers may search and choose items that they desire based on best features.
 ### Technical Stack:
 
 #### Frontend
-- react.js for dynamic front-end content
+- Djnago Templating Language
 #### Backend
-- Django (Python) (for route handling and dispatch)
-- socket.io (Python, JS) for real-time updates
+- Django (Python)
 - Postgresql for DBMS
 
 ### Project Details:
