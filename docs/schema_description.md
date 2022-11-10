@@ -27,7 +27,7 @@ The following schema is proposed for the project, for use with an RDBMS software
 - _Product_ OFFERED BY _User_ **M:N**
     - Quantity
     - Price
-- _User_ ADDS _Product_ PROVIDED BY _User_ TO CART **M:N:P**
+- _User_ ADDS _Product_ TO CART **M:N**
     - Quantity
 - _User_ PURCHASES _Item_ PROVIDED BY _User_ **M:N:P**
     - Order ID
@@ -35,12 +35,12 @@ The following schema is proposed for the project, for use with an RDBMS software
     - Buyer
     - Product
     - Price
-    - Payment Status
     - Date of Order
     - Date of Shipment
 
 ## Relations
 - User
 - Product
+- ListedProducts
 - CartItem
 - Transaction
